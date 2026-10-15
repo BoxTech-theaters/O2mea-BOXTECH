@@ -1,0 +1,42 @@
+/* BoxTech O2mea — additive layer on lux.css (charcoal + champagne gold) */
+.o2nav{flex-wrap:wrap;row-gap:.2rem;font-size:.92rem}
+.o2crumbs ol{list-style:none;display:flex;flex-wrap:wrap;gap:.4rem;margin:0;padding:0;font-size:.88rem;color:var(--muted)}
+.o2crumbs li+li::before{content:"/";margin-inline-end:.4rem;opacity:.5}
+.o2crumbs a{color:var(--gold2)}
+.o2hero{padding:3.2rem 0 2.4rem;border-bottom:1px solid var(--line)}
+.o2hero .g2{display:grid;gap:2rem;align-items:center}
+@media(min-width:900px){.o2hero .g2{grid-template-columns:1.05fr .95fr}}
+.o2hero h1{font-size:clamp(1.9rem,4.2vw,3.1rem);margin-top:.9rem}
+.o2hero .lead{margin-top:1rem;color:var(--text);opacity:.92;max-width:62ch}
+.o2img{width:100%;height:auto;border-radius:var(--radius);border:1px solid var(--line);box-shadow:var(--shadow)}
+.o2fig{margin:0}.o2fig figcaption{font-size:.85rem;color:var(--muted);margin-top:.5rem}
+.o2prose{max-width:78ch}.o2prose p{margin:.9rem 0}.o2prose h2{margin-top:2.2rem;font-size:clamp(1.35rem,2.6vw,1.9rem)}.o2prose h3{margin-top:1.4rem;font-size:1.12rem;color:var(--gold2)}
+.o2list{margin:.8rem 0;padding-inline-start:1.2rem}.o2list li{margin:.35rem 0}
+.o2dl{display:grid;gap:1rem;margin-top:1rem}@media(min-width:760px){.o2dl{grid-template-columns:1fr 1fr}}
+.o2dl>div{border:1px solid var(--line);border-radius:var(--radius);padding:1.1rem 1.2rem;background:var(--surface)}
+.o2dl h3{font-size:1.02rem;color:var(--gold2);margin:0 0 .35rem}.o2dl p{margin:0;font-size:.96rem}
+.o2cards{display:grid;gap:1rem;margin-top:1.2rem;grid-template-columns:repeat(auto-fill,minmax(240px,1fr))}
+.o2card{display:block;padding:1.15rem 1.25rem;border:1px solid var(--line);border-radius:var(--radius);background:linear-gradient(135deg,rgba(201,169,106,.10),rgba(255,255,255,0))}
+.o2card b{display:block;color:var(--gold2);font-size:1.05rem}.o2card span{display:block;margin-top:.35rem;font-size:.9rem;color:var(--muted)}
+.o2card:hover{border-color:var(--gold);transform:translateY(-2px)}
+.o2steps{counter-reset:s;list-style:none;padding:0;margin:1rem 0;display:grid;gap:.8rem}
+.o2steps li{counter-increment:s;position:relative;padding:1rem 1.2rem;padding-inline-start:3.4rem;border:1px solid var(--line);border-radius:var(--radius);background:var(--surface)}
+.o2steps li::before{content:counter(s);position:absolute;inset-inline-start:1rem;top:1rem;width:1.7rem;height:1.7rem;border-radius:50%;display:grid;place-items:center;background:var(--gold);color:var(--ink);font-weight:700;font-size:.85rem}
+.o2steps b{color:var(--ivory)}
+.o2tbl{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.94rem}.o2tbl th,.o2tbl td{border:1px solid var(--line);padding:.6rem .75rem;text-align:start;vertical-align:top}.o2tbl th{color:var(--gold2);background:var(--surface)}
+.o2wrap2{display:grid;gap:2rem}@media(min-width:980px){.o2wrap2{grid-template-columns:minmax(0,1fr) 320px}}
+.o2aside{position:sticky;top:6rem;align-self:start;border:1px solid var(--line);border-radius:var(--radius);padding:1.2rem;background:var(--surface);font-size:.93rem}
+.o2aside h2{font-size:1rem;color:var(--gold2)}.o2aside ul{padding-inline-start:1rem;margin:.6rem 0}
+.o2label{display:inline-block;border:1px solid var(--gold);color:var(--gold2);border-radius:999px;padding:.15rem .7rem;font-size:.8rem}
+.o2gal{display:grid;gap:1rem;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));margin-top:1.2rem}
+.o2home{padding:3rem 0;border-top:1px solid rgba(201,169,106,.25);background:#0d0e10;color:#ece6da}
+.o2home .o2h-in{max-width:72rem;margin:0 auto;padding:0 1.25rem}
+.o2home h2{font-size:clamp(1.5rem,3vw,2.2rem);color:#f5f0e6;margin:.4rem 0 .6rem}
+.o2home p.k{color:#c9a96a;font-size:.9rem;letter-spacing:.08em}
+.o2home .o2h-grid{display:grid;gap:.8rem;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));margin-top:1.4rem}
+.o2home .o2h-grid a{display:block;padding:.9rem 1rem;border:1px solid rgba(230,211,168,.18);border-radius:12px;color:#ece6da;text-decoration:none;background:linear-gradient(135deg,rgba(201,169,106,.12),transparent)}
+.o2home .o2h-grid a:hover{border-color:#c9a96a;color:#e6d3a8}
+.o2home .o2h-grid b{display:block;color:#e6d3a8;font-weight:600}
+.o2home .o2h-grid small{display:block;opacity:.75;margin-top:.2rem}
+.o2home .o2h-links{display:flex;flex-wrap:wrap;gap:.6rem 1.2rem;margin-top:1.4rem}
+.o2home .o2h-links a{color:#c9a96a;text-decoration:underline;text-underline-offset:3px}
