@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://boxtech-theaters.github.io/O2mea-BOXTECH/sitemap.xml

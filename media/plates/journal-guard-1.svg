@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img">
+  <rect width="1200" height="675" fill="hsl(123.19999999999999 18% 12%)"/>
+  <g fill="none" stroke="hsl(153.2 32% 68%)" stroke-width="2"><circle cx="420" cy="340" r="180" /><circle cx="780" cy="340" r="120" /><path d="M160 520 H1040" /></g>
+  <rect x="48" y="560" width="64" height="8" fill="hsl(123.19999999999999 28% 90%)"/>
+  <text x="128" y="572" fill="hsl(123.19999999999999 28% 90%)" font-family="Georgia, serif" font-size="22">A fall barrier at the last row</text>
+  <text x="48" y="620" fill="hsl(153.2 32% 68%)" font-family="Georgia, serif" font-size="14">journal-guard-1</text>
+</svg>

@@ -1,0 +1,1 @@
+import{a as e,n as t}from"./index-L0MD7BZi.js";import{t as n}from"./home-view-BFToF07u.js";var r=e(),i=function(){let{lang:e}=t.useParams();return(0,r.jsx)(n,{lang:e})};export{i as component};

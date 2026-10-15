@@ -1,0 +1,1 @@
+import{t as e}from"./shell-BZdGXQay.js";import{a as t,i as n,r}from"./index-L0MD7BZi.js";var i=t(),a=function(){let{lang:t}=r.useParams();return(0,i.jsx)(e,{lang:t,children:(0,i.jsx)(n,{})})};export{a as component};

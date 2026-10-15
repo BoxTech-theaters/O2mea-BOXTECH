@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img">
+  <rect width="1200" height="675" fill="hsl(158.2 18% 12%)"/>
+  <g fill="none" stroke="hsl(188.2 32% 68%)" stroke-width="2"><path d="M120 500 C 300 200, 700 180, 1080 140" /><path d="M160 500 C 330 180, 700 210, 1080 190" /><path d="M200 500 C 360 160, 700 240, 1080 240" /><path d="M240 500 C 390 140, 700 270, 1080 290" /><path d="M280 500 C 420 120, 700 300, 1080 340" /></g>
+  <rect x="48" y="560" width="64" height="8" fill="hsl(158.2 28% 90%)"/>
+  <text x="128" y="572" fill="hsl(158.2 28% 90%)" font-family="Georgia, serif" font-size="22">Stadium 974: a stand that comes down, and a lesson in numbered parts</text>
+  <text x="48" y="620" fill="hsl(188.2 32% 68%)" font-family="Georgia, serif" font-size="14">news-2022-stadium-974-2</text>
+</svg>

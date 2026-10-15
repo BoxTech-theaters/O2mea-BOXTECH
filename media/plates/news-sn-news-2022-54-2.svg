@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img">
+  <rect width="1200" height="675" fill="hsl(319 18% 12%)"/>
+  <g fill="none" stroke="hsl(349 32% 68%)" stroke-width="2"><path d="M80 80 Q600 40 1120 90" /><path d="M80 140 Q600 95 1120 148" /><path d="M80 200 Q600 150 1120 206" /><path d="M80 260 Q600 205 1120 264" /><path d="M80 320 Q600 260 1120 322" /><path d="M80 380 Q600 315 1120 380" /><path d="M80 440 Q600 370 1120 438" /><path d="M80 500 Q600 425 1120 496" /></g>
+  <rect x="48" y="560" width="64" height="8" fill="hsl(319 28% 90%)"/>
+  <text x="128" y="572" fill="hsl(319 28% 90%)" font-family="Georgia, serif" font-size="22">استاد البيت: ما الذي تغيّر للجالس في 2022</text>
+  <text x="48" y="620" fill="hsl(349 32% 68%)" font-family="Georgia, serif" font-size="14">news-sn-news-2022-54-2</text>
+</svg>

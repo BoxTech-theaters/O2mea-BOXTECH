@@ -1,0 +1,19 @@
+{
+  "name": "BoxTech O2mea seating",
+  "short_name": "BoxTech O2mea",
+  "id": "/O2mea-BOXTECH/",
+  "start_url": "/O2mea-BOXTECH/ar/",
+  "scope": "/O2mea-BOXTECH/",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    {
+      "src": "/O2mea-BOXTECH/__grok/icon-180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ],
+  "lang": "ar",
+  "dir": "rtl"
+}

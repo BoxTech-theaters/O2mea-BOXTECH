@@ -1,0 +1,32 @@
+/* Stage engineering — luxury overlay: deep charcoal-navy + champagne gold */
+:root,:host{--color-hall:#0e1115;--color-hall-2:#262c35;--color-brass:#a8823f;--color-brass-soft:#dcc28e;--color-paper:#f8f4ed;--color-foam:#eee6d6;--color-ink:#14151a;--color-line:#e2d8c6;--color-mist:#625b50;--lux-gold:#c9a96a;--lux-ease:cubic-bezier(.2,.7,.2,1)}
+body{-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+html[lang=ar] body{line-height:1.8}
+html[lang=ar] h1{line-height:1.3!important}
+a,button{transition:color .25s var(--lux-ease),background-color .3s var(--lux-ease),border-color .3s var(--lux-ease),box-shadow .35s var(--lux-ease),transform .35s var(--lux-ease)}
+::selection{background:#e6d3a8;color:#14151a}
+.lux-xbar{background:#07080a;border-bottom:1px solid rgba(201,169,106,.18);font-size:.8rem}
+.lux-xbar-in{max-width:72rem;margin:0 auto;padding:.45rem 1rem;display:flex;gap:1.2rem;flex-wrap:wrap;align-items:center}
+.lux-xbar a{color:#cfc5b3}.lux-xbar a:hover{color:#e6d3a8}
+.lux-xbar-tel{margin-inline-start:auto;direction:ltr;unicode-bidi:isolate}
+header.sticky{background:rgba(14,17,21,.92);-webkit-backdrop-filter:saturate(140%) blur(14px);backdrop-filter:saturate(140%) blur(14px);border-bottom:1px solid rgba(201,169,106,.25);box-shadow:0 14px 34px -26px rgba(0,0,0,.8)}
+header.sticky nav a{position:relative;border-radius:999px}
+header.sticky nav a:hover{color:#f5efe3;background:rgba(201,169,106,.08)}
+header .bg-brass,a.bg-brass,button.bg-brass{background:linear-gradient(135deg,#e6d3a8,#c9a96a 55%,#9c7c44)!important;color:#14110b!important;border-radius:999px;box-shadow:0 10px 26px -14px rgba(201,169,106,.6)}
+a.bg-brass:hover{transform:translateY(-1px);box-shadow:0 16px 36px -16px rgba(201,169,106,.75)}
+header a.border,header button.border{border-radius:999px;border-color:rgba(220,194,142,.35)}
+main a.border.border-brass-soft,main a.border.border-line{border-radius:999px}
+section.bg-hall,div.bg-hall:not(.fixed){background:radial-gradient(1000px 360px at 85% -10%,rgba(201,169,106,.12),transparent 60%),#0e1115}
+html[dir=rtl] section.bg-hall{background:radial-gradient(1000px 360px at 15% -10%,rgba(201,169,106,.12),transparent 60%),#0e1115}
+main li>a.block.border,main a.block.border{border-radius:14px;overflow:hidden}
+main a.block.border:hover{transform:translateY(-3px);box-shadow:0 22px 50px -28px rgba(20,21,26,.45);border-color:rgba(168,130,63,.55)}
+main img{transition:transform .9s var(--lux-ease)}
+main a:hover img{transform:scale(1.04)}
+input,select,textarea{border-radius:10px}
+footer.bg-hall{background:#0a0c0f;border-top:1px solid rgba(201,169,106,.35);position:relative}
+footer.bg-hall::before{content:"";position:absolute;inset-inline:0;top:0;height:1px;background:linear-gradient(90deg,transparent,#c9a96a,transparent)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+a.border.border-brass-soft{border-radius:999px}
+@media (max-width:640px){.lux-xbar-tel{display:none}.lux-xbar-in{gap:.9rem;font-size:.76rem}}
+
+/*bt-logo*/header a .grid.size-9{background:url(/O2mea-BOXTECH/logo-mark.svg) center/contain no-repeat;border:0}header a .grid.size-9>span{display:none}
