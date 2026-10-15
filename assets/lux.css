@@ -68,3 +68,6 @@ header.sticky>div.mx-auto{max-width:80rem;gap:1.25rem}}
 
 /*bt-logo*/header a .display.text-xl::before,footer p.display.text-2xl::before{content:"";display:inline-block;flex:none;width:2.4rem;height:2.4rem;background:url(/O2mea-BOXTECH/logo-mark.svg) center/contain no-repeat;vertical-align:middle;margin-inline-end:.65rem}header a .display.text-xl{display:inline-flex;align-items:center}@media(max-width:640px){header a .display.text-xl::before{width:2.1rem;height:2.1rem}}
 /*bt-region*/header a .display.text-xl+span{display:block!important;max-width:16rem;line-height:1.4;color:#8a6d33;font-size:.72rem}@media(max-width:640px){header a .display.text-xl+span{max-width:9.5rem;font-size:.62rem}}
+/* O2mea: keep extended header nav inside viewport */
+header nav.max-w-3xl{max-width:52rem!important;flex-wrap:wrap!important;white-space:normal!important;column-gap:.9rem!important;row-gap:.2rem!important;font-size:.82rem;min-width:0;flex:0 1 auto}
+header nav.max-w-3xl a{white-space:nowrap}
