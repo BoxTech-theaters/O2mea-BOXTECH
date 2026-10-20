@@ -1,0 +1,31 @@
+.o2pj{background:#f6f2ea;border-top:1px solid rgba(0,0,0,.08);padding:56px 0}
+.o2pj-in{max-width:72rem;margin:0 auto;padding:0 20px}
+.o2pj-k{font-size:.8rem;letter-spacing:.08em;color:#9a6b3f;margin:0}
+.o2pj h2{font-size:clamp(1.5rem,3vw,2.1rem);margin:.4rem 0 .6rem;line-height:1.25}
+.o2pj-lead{color:#555;max-width:48rem;line-height:1.8;margin:0 0 1.2rem}
+.o2pj-chips{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 20px}
+.o2pj-chips button{border:1px solid rgba(0,0,0,.18);background:#fff;padding:6px 12px;font-size:.82rem;border-radius:999px;cursor:pointer}
+.o2pj-chips button[aria-pressed=true]{background:#1d1d1b;color:#fff;border-color:#1d1d1b}
+.o2pj-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:18px}
+.o2pj-it{margin:0;background:#fff;border:1px solid rgba(0,0,0,.08);display:flex;flex-direction:column}
+.o2pj-it[hidden]{display:none}
+.o2pj-open{display:block;padding:0;border:0;background:#ddd;cursor:zoom-in;aspect-ratio:4/3;overflow:hidden}
+.o2pj-open img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .35s}
+.o2pj-open:hover img{transform:scale(1.04)}
+.o2pj figcaption{padding:10px 12px 12px;font-size:.84rem;line-height:1.6;display:flex;flex-direction:column;gap:2px}
+.o2pj figcaption span{color:#666}
+.o2pj figcaption a{color:#9a6b3f;text-decoration:underline;margin-top:2px;width:fit-content}
+.o2pj-more{margin:22px 0 0}.o2pj-more a{display:inline-block;background:#1d1d1b;color:#fff;padding:10px 18px}
+.o2pj-note{font-size:.75rem;color:#777;margin:18px 0 0;line-height:1.7}
+.o2pj-lb{position:fixed;inset:0;z-index:2147483000;background:rgba(10,10,10,.92);display:flex;align-items:center;justify-content:center;padding:48px 56px}
+.o2pj-lb[hidden]{display:none}
+.o2pj-lb figure{margin:0;max-width:100%;max-height:100%;display:flex;flex-direction:column;align-items:center}
+.o2pj-lb img{max-width:100%;max-height:calc(100vh - 190px);object-fit:contain;display:block}
+.o2pj-lb figcaption{color:#eee;text-align:center;align-items:center;font-size:.9rem;padding-top:12px}
+.o2pj-lb figcaption span{color:#bbb}.o2pj-lb figcaption a{color:#e9c08f;margin:2px auto 0}.o2pj-lb small{color:#999;margin-top:4px}
+.o2pj-lb>button{position:absolute;background:rgba(255,255,255,.12);color:#fff;border:0;width:46px;height:46px;font-size:30px;line-height:1;cursor:pointer;border-radius:50%}
+.o2pj-x{top:12px;inset-inline-end:12px}.o2pj-pv{inset-inline-start:8px;top:50%;margin-top:-23px}.o2pj-nx{inset-inline-end:8px;top:50%;margin-top:-23px}
+html.o2pj-lock{overflow:hidden}
+@media(max-width:640px){.o2pj{padding:40px 0}.o2pj-grid{grid-template-columns:1fr 1fr;gap:10px}.o2pj figcaption{font-size:.74rem;padding:8px}.o2pj-lb{padding:56px 6px 20px}.o2pj-lb>button{width:40px;height:40px;font-size:24px}.o2pj-pv,.o2pj-nx{top:auto;bottom:14px}}
+@media(max-width:380px){.o2pj-grid{grid-template-columns:1fr}}
+@media(max-width:640px){.o2pj-chips{flex-wrap:nowrap;overflow-x:auto;padding-bottom:6px;-webkit-overflow-scrolling:touch}.o2pj-chips button{flex:0 0 auto}}
